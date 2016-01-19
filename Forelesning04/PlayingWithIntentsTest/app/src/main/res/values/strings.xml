@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">PlayingWithIntentsTest</string>
+    <string name="start_other_activity">Start other activity</string>
+    <string name="implicitly_start">Implicitly start other activity</string>
+    <string name="this_is_other_activity">This is the other activity</string>
+    <string name="get_picture">Get picture</string>
+    <string name="picked_image">Picked image</string>
+    <string name="title_activity_other">OtherActivity</string>
+    <string name="show_time">Show time</string>
+    <string name="show_date">Show date</string>
+    <string name="open_website">Open website</string>
+    <string name="run_service_job">Run service job</string>
+</resources>
