@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:shrinkColumns="2"
+    android:stretchColumns="0,1,2,3"
+    tools:context="com.example.perev.playingwithlayoutslecture.TableLayoutActivity">
+
+    <TextView
+        android:text="@string/movies"
+        android:background="#ccc"/>
+
+    <TableRow>
+        <TextView
+            android:text="@string/one"
+            android:background="#c8bcce"
+            android:layout_width="match_parent"/>
+        <TextView
+            android:text="@string/the_shawshank_redemption"
+            android:background="#b1b5cf"
+            android:layout_width="match_parent"/>
+        <TextView
+            android:text="@string/stars_the_shawshank_redemption"
+            android:background="#c5bcc9"
+            android:layout_width="match_parent"/>
+        <TextView
+            android:text="@string/score9_3"
+            android:background="#cbcdd4"
+            android:layout_width="match_parent"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="@string/two"
+            android:background="#aee6b1"
+            android:layout_width="match_parent"/>
+        <TextView
+            android:text="@string/despicable_me"
+            android:background="#90d293"
+            android:layout_width="match_parent"/>
+        <TextView
+            android:text="@string/stars_despicable_me"
+            android:background="#b3d6b5"
+            android:layout_width="match_parent"/>
+        <TextView
+            android:text="@string/score7_6"
+            android:background="#73be77"
+            android:layout_width="match_parent"/>
+
+    </TableRow>
+
+</TableLayout>
