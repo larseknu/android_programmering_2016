@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.perev.playingwithactionbarlecture.MainActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_option1"
+        android:icon="@android:drawable/ic_menu_mapmode"
+        android:title="@string/action_option1"
+        app:showAsAction="always|withText" ></item>
+
+    <item
+        android:id="@+id/menu_option2"
+        android:icon="@android:drawable/ic_menu_rotate"
+        android:title="@string/action_option2"
+        app:showAsAction="ifRoom|withText"></item>
+
+    <item
+        android:id="@+id/menu_option3"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:title="@string/action_option3"
+        app:showAsAction="ifRoom|withText"></item>
+
+    <item
+        android:id="@+id/menu_exit"
+        android:icon="@android:drawable/ic_lock_power_off"
+        android:title="@string/action_exit"
+        android:onClick="onExitClicked"
+        app:showAsAction="never"></item>
+
+
+</menu>

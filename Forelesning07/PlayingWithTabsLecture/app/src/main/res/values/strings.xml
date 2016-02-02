@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PlayingWithTabsLecture</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tab1_text">Tab 1</string>
+    <string name="tab2_text">Tab 2</string>
+    <string name="tab3_text">Tab 3</string>
+</resources>
