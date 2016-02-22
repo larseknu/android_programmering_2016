@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.perev.playingwithsqlitetest.ShowListActivitiy">
+
+    <item
+        android:id="@+id/add"
+        app:showAsAction="ifRoom|withText"
+        android:icon="@android:drawable/ic_input_add"
+        android:title="@string/add" />
+
+    <item
+        android:id="@+id/delete"
+        app:showAsAction="ifRoom|withText"
+        android:icon="@android:drawable/ic_delete"
+        android:title="@string/delete" />
+</menu>
