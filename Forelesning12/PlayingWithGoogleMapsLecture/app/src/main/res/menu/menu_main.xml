@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.perev.playingwithgooglemapslecture.MainActivity">
+
+    <item
+        android:id="@+id/kitty_attack"
+        android:title="@string/kitty_attack"
+        android:icon="@android:drawable/ic_dialog_alert"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/remove_kittens"
+        android:title="@string/kittens_remove"
+        android:icon="@android:drawable/ic_notification_clear_all"
+        app:showAsAction="ifRoom" />
+
+
+</menu>
